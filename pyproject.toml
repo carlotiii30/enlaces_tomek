@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "enlaces-tomek"
+version = "0.1.0"
+description = ""
+authors = ["Carlota de la Vega <carlotadlavega@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.1.3"
+matplotlib = "^3.9.2"
+imblearn = "^0.0"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
